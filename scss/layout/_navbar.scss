@@ -1,0 +1,34 @@
+.logo {
+
+    @include logo;
+}
+
+.navbar {
+    @include navbar;
+}
+
+
+
+.navbar_menu {
+
+    @include navbar_menu;
+    li {
+        list-style: none;
+        
+        
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.border {
+    @include border; 
+}
+
+
+.links {
+    @include links;
+}
+

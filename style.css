@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: flex;
+  margin-top: 4vh;
+  height: 4vh;
+  margin-left: 15vh;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar_menu {
+  margin-left: 45vh;
+  display: flex;
+  text-decoration: none;
+}
+.navbar_menu li {
+  list-style: none;
+}
+.navbar_menu a {
+  text-decoration: none;
+}
+
+.border {
+  font-family: "Poppins", sans-serif;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin-left: 10vh;
+  margin-top: 4.5vh;
+}
+.border a {
+  color: black;
+}
+
+.links {
+  margin-top: 5.5vh;
+}
+.links a {
+  color: black;
+  margin-left: 9vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.headersize {
+  width: 100%;
+  height: 100vh;
+}
+
+.headerback {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("img/Decore.png");
+}
+
+.subtitle {
+  font-family: "Poppins", sans-serif;
+  color: #DF6951;
+  margin-left: 15vh;
+  margin-top: 17vh;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.title {
+  color: #181E4B;
+  font-family: "Volkhov", sans-serif;
+  font-weight: bold;
+  margin-left: 15vh;
+  margin-top: 5vh;
+  font-size: 65px;
+}
+
+.text {
+  color: #181E4B;
+  font-family: "Volkhov", sans-serif;
+  margin-left: 15vh;
+  margin-top: 5vh;
+  font-size: 17px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.finding {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  background-color: #F1A501;
+  padding: 3vh;
+  margin-top: 3vh;
+  padding-left: 3vh;
+  margin-left: 15vh;
+  border-radius: 17px;
+  margin-bottom: 5vh;
+}
+.finding a {
+  text-decoration: none;
+  color: white;
+}
+
+.play_button {
+  display: flex;
+  width: 7vw;
+  height: 15vh;
+  margin-top: 2vh;
+}
+
+.traveller {
+  margin-top: 3vh;
+  display: flex;
+  height: 85vh;
+}
+
+.containall {
+  display: flex;
+  width: 46vw;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+}
+
+.contain2 {
+  display: flex;
+}
+
+.containimgtext {
+  display: flex;
+}
+
+.playmsg {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  margin-top: 6vh;
+}
+
+/*# sourceMappingURL=style.css.map */

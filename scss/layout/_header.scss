@@ -1,0 +1,61 @@
+
+.headersize {
+    
+    @include headersize;
+
+}
+
+.headerback {
+    
+    @include headerback;
+}
+
+
+.subtitle {
+    @include subtitle;
+}
+
+
+.title {
+    @include title;
+}
+
+.text {
+    @include text;
+}
+
+.buttons {
+    @include buttons;
+}
+
+.finding {
+    @include finding;
+}
+
+.play_button {
+    @include play_button;
+}
+
+.traveller {
+    @include traveller;
+}
+
+.containall {
+    @include containall;
+}
+
+.contain {
+    @include contain;
+}
+
+.contain2 {
+    @include contain2;
+}
+
+.containimgtext {
+    @include containimgtext;
+}
+
+.playmsg {
+    @include playmsg;
+}
