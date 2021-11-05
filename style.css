@@ -50,6 +50,13 @@
   font-family: "Poppins", sans-serif;
 }
 
+.arrow {
+  width: 1.2vh;
+  height: 0.4vw;
+  margin-top: 6.7vh;
+  margin-left: 0.5vw;
+}
+
 .headersize {
   width: 100%;
   height: 100vh;
