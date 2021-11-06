@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -55,6 +56,161 @@
   height: 0.4vw;
   margin-top: 6.7vh;
   margin-left: 0.5vw;
+}
+
+.categorytitle {
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 80vh;
+}
+
+.catsubtitle {
+  color: #14183E;
+  font-family: "Volkhov", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-left: 14.9vh;
+}
+
+.cattitle {
+  font-size: 4.5vh;
+  color: #14183E;
+  font-family: "Volkhov", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vh;
+}
+
+.decorcat {
+  display: flex;
+  flex-direction: row;
+  width: 15vh;
+}
+
+.catdecor {
+  display: flex;
+  flex-direction: row;
+  margin-left: 48vh;
+}
+
+.catdiv {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.offercards {
+  margin-top: 7vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 429px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  gap: 5px;
+}
+
+.card1:hover {
+  background-image: url("img/Group 590.png");
+  background-size: 48vh 60vh;
+  background-repeat: no-repeat;
+}
+
+.cardimg {
+  width: 10vh;
+  height: 10vh;
+  margin-left: 19vh;
+  margin-bottom: 3vh;
+}
+
+.cardimg2 {
+  width: 15vh;
+  height: 13vh;
+  margin-left: 19vh;
+  margin-bottom: 3vh;
+}
+
+.cardtitle {
+  color: #181E4B;
+  font-family: "Volkhov", sans-serif;
+  text-align: center;
+}
+
+.cardtxt {
+  color: #181E4B;
+  font-family: "Volkhov", sans-serif;
+  text-align: center;
+  margin-top: 2.8vh;
+  margin-left: 15vh;
+  font-size: 16px;
+  margin-right: 15vh;
+  line-height: 26px;
+}
+
+.destinationdiv {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.div2title {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.destsubtitle {
+  color: #14183E;
+  font-family: "Volkhov", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-left: 94vh;
+}
+
+.destdivtitle {
+  font-size: 4.5vh;
+  color: #14183E;
+  font-family: "Volkhov", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vh;
+  margin-left: 80vh;
+}
+
+.destinationcards {
+  min-width: 140vh;
+  margin-left: 30vh;
+  margin-top: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 400px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  gap: 20px;
+}
+
+.dest1 {
+  background-image: url("img/Group 591.png");
+  background-size: 48vh 60vh;
+  background-repeat: no-repeat;
+}
+
+.dest1 {
+  background-image: url("img/Group 591.png");
+  background-size: 48vh 60vh;
+  background-repeat: no-repeat;
+}
+
+.dest2 {
+  background-image: url("img/Group 592.png");
+  background-size: 48vh 60vh;
+  background-repeat: no-repeat;
+}
+
+.dest3 {
+  background-image: url("img/Group 593.png");
+  background-size: 48vh 60vh;
+  background-repeat: no-repeat;
 }
 
 .headersize {

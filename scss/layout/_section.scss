@@ -1,0 +1,93 @@
+.categorytitle {
+    @include categorytitle;
+}
+
+
+.catsubtitle {
+    @include catsubtitle;
+}
+
+
+.cattitle {
+    @include cattitle;
+}
+
+.decorcat {
+    @include decorcat;
+}
+
+.catdecor {
+    @include catdecor;
+}
+
+.catdiv {
+    @include catdiv;
+}
+
+.offercards {
+    @include offercards;
+}
+
+
+.card1:hover {
+    @include card1;
+}
+
+.cardimg {
+    @include cardimg;
+}
+
+.cardimg2 {
+    @include cardimg2;
+}
+
+
+.cardtitle {
+    @include cardtitle;
+}
+
+.cardtxt {
+    @include cardtxt;
+}
+
+
+.destinationdiv {
+    @include destinationdiv;
+}
+
+.div2title {
+    @include div2title;
+}
+
+.destsubtitle {
+    @include destsubtitle;
+}
+
+.destdivtitle {
+    @include destdivtitle;
+}
+
+
+
+
+.destinationcards {
+    @include destinationcards;
+}
+
+
+.dest1 {
+    @include dest1;
+}
+
+
+.dest1 {
+    @include dest1;
+}
+
+.dest2 {
+    @include dest2;
+}
+
+.dest3 {
+    @include dest3;
+}
