@@ -70,7 +70,7 @@
   font-family: "Volkhov", sans-serif;
   display: flex;
   flex-direction: column;
-  margin-left: 14.9vh;
+  margin-left: 16vh;
 }
 
 .cattitle {
@@ -164,7 +164,7 @@
   font-family: "Volkhov", sans-serif;
   display: flex;
   flex-direction: column;
-  margin-left: 94vh;
+  margin-left: 99vh;
 }
 
 .destdivtitle {
@@ -174,43 +174,86 @@
   display: flex;
   flex-direction: column;
   margin-top: 1vh;
-  margin-left: 80vh;
+  margin-left: 85vh;
 }
 
 .destinationcards {
-  min-width: 140vh;
-  margin-left: 30vh;
+  min-width: 170vh;
+  margin-left: 14.5vh;
   margin-top: 10vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 400px;
+  grid-template-rows: 530px;
   grid-column: 1/2;
   grid-row: 1/2;
-  gap: 20px;
+  gap: 10px;
 }
 
 .dest1 {
   background-image: url("img/Group 591.png");
-  background-size: 48vh 60vh;
+  background-size: 60vh 75vh;
   background-repeat: no-repeat;
 }
 
 .dest1 {
   background-image: url("img/Group 591.png");
-  background-size: 48vh 60vh;
+  background-size: 60vh 75vh;
   background-repeat: no-repeat;
 }
 
 .dest2 {
   background-image: url("img/Group 592.png");
-  background-size: 48vh 60vh;
+  background-size: 60vh 75vh;
   background-repeat: no-repeat;
 }
 
 .dest3 {
+  position: relative;
+  z-index: 2;
   background-image: url("img/Group 593.png");
-  background-size: 48vh 60vh;
+  background-size: 60vh 75vh;
   background-repeat: no-repeat;
+}
+
+.decordest {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  margin-left: 45vh;
+}
+
+.p1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.p2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.towname {
+  display: flex;
+  margin-left: 13vh;
+  margin-top: 41vh;
+}
+
+.price {
+  display: flex;
+  margin-left: 16vh;
+  margin-top: 41vh;
+}
+
+.icondest {
+  display: flex;
+  margin-left: 13vh;
+  margin-top: 2.5vh;
+}
+
+.triptime {
+  display: flex;
+  margin-left: 2vh;
+  margin-top: 2.5vh;
 }
 
 .headersize {
@@ -221,7 +264,7 @@
 .headerback {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("img/Decore.png");
+  background-image: url("img/Group 594.png");
 }
 
 .subtitle {
@@ -235,11 +278,11 @@
 
 .title {
   color: #181E4B;
-  font-family: "Volkhov", sans-serif;
+  font-family: "Volkhov", serif;
   font-weight: bold;
   margin-left: 15vh;
   margin-top: 5vh;
-  font-size: 65px;
+  font-size: 75px;
 }
 
 .text {
@@ -259,6 +302,7 @@
   display: flex;
   font-family: "Poppins", sans-serif;
   background-color: #F1A501;
+  box-shadow: 5px #F1A501;
   padding: 3vh;
   margin-top: 3vh;
   padding-left: 3vh;

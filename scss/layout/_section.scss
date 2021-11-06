@@ -91,3 +91,33 @@
 .dest3 {
     @include dest3;
 }
+
+.decordest {
+    @include decordest;
+}
+
+.p1 {
+    @include p1;
+}
+
+.p2 {
+    @include p2;
+}
+
+
+
+.towname {
+    @include towname;
+}
+
+.price {
+    @include price;
+}
+
+.icondest {
+    @include icondest;
+}
+
+.triptime {
+    @include triptime;
+}
