@@ -66,7 +66,8 @@
 }
 
 .catsubtitle {
-  color: #14183E;
+  font-size: 2vh;
+  color: #5E6282;
   font-family: "Volkhov", sans-serif;
   display: flex;
   flex-direction: column;
@@ -160,7 +161,8 @@
 }
 
 .destsubtitle {
-  color: #14183E;
+  font-size: 2vh;
+  color: #5E6282;
   font-family: "Volkhov", sans-serif;
   display: flex;
   flex-direction: column;
@@ -178,12 +180,13 @@
 }
 
 .destinationcards {
+  display: flex;
   min-width: 170vh;
   margin-left: 14.5vh;
   margin-top: 10vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 530px;
+  grid-template-rows: 520px;
   grid-column: 1/2;
   grid-row: 1/2;
   gap: 10px;
@@ -209,17 +212,18 @@
 
 .dest3 {
   position: relative;
-  z-index: 2;
+  z-index: auto;
   background-image: url("img/Group 593.png");
   background-size: 60vh 75vh;
   background-repeat: no-repeat;
 }
 
 .decordest {
-  position: relative;
-  z-index: 1;
+  position: absolute;
+  z-index: auto;
   display: flex;
   margin-left: 45vh;
+  top: 25%;
 }
 
 .p1 {
@@ -248,12 +252,163 @@
   display: flex;
   margin-left: 13vh;
   margin-top: 2.5vh;
+  height: 20px;
+  width: 20px;
 }
 
 .triptime {
   display: flex;
   margin-left: 2vh;
   margin-top: 2.5vh;
+}
+
+.content4 {
+  margin-left: 10vh;
+  margin-bottom: 20vw;
+  height: 50vh;
+  display: flex;
+  margin-top: 10vh;
+  flex-direction: column;
+}
+
+.content5 {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.titlenexttrip {
+  margin-bottom: 2vh;
+  font-size: 4.5vh;
+  color: #14183E;
+  font-family: "Volkhov", sans-serif;
+}
+
+.subtitlenexttrip {
+  font-size: 2vh;
+  margin-bottom: 2vh;
+  color: #5E6282;
+  font-family: "Volkhov", sans-serif;
+}
+
+.bookmsg1 {
+  margin-top: 7vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bookmsg2 {
+  margin-top: 7vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bookmsg3 {
+  margin-top: 7vh;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  color: #5E6282;
+  margin-left: 9vh;
+  font-family: "Poppins", sans-serif;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.imgbook1 {
+  position: absolute;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 47px;
+  height: 48px;
+}
+
+.imgbook2 {
+  position: absolute;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  width: 47px;
+  height: 48px;
+}
+
+.imgbook3 {
+  position: absolute;
+  margin-top: 0h;
+  display: flex;
+  flex-direction: column;
+  width: 47px;
+  height: 48px;
+}
+
+.titlebook {
+  font-size: 2vh;
+  color: #5E6282;
+  font-family: "Volkhov", sans-serif;
+  font-weight: bold;
+}
+
+.divcomments {
+  margin-top: 15vh;
+  margin-left: 20vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 600x;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  gap: 10px;
+}
+
+.gridtrip {
+  margin-left: 14vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 600x;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  gap: 10px;
+}
+
+.cardgreece {
+  background-image: url("img/Image (1).png");
+  margin-left: 5vh;
+  height: 99vh;
+  width: 41vw;
+}
+
+.decorcardgreece {
+  position: relative;
+  display: flex;
+  margin-left: 30vh;
+  top: 57%;
+}
+
+.cadrecomment {
+  background-image: url("img/Group 64.png");
+  margin-right: 10vh;
+  height: 60vh;
+  width: vw;
+}
+
+.points {
+  margin-top: 13vh;
+}
+
+.decorcardcomment {
+  position: relative;
+  display: flex;
+  margin-left: 87vh;
+  top: 23%;
+}
+
+.profilepic1 {
+  position: relative;
+  display: flex;
+  margin-left: 6vh;
+  top: 0;
 }
 
 .headersize {

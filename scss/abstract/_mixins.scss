@@ -189,7 +189,8 @@
 }
 
 @mixin catsubtitle {
-    color: #14183E;
+    font-size: 2vh;
+    color: #5E6282;
     font-family: 'Volkhov', sans-serif;
     display: flex;
     flex-direction: column;
@@ -297,12 +298,13 @@
 
 
 @mixin destinationcards {
+    display: flex;
     min-width: 170vh;
     margin-left: 14.5vh;
     margin-top: 10vh;
     display: grid;   
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 530px;
+    grid-template-rows: 520px;
     grid-column: 1/2;
     grid-row: 1/2;
     gap: 10px;
@@ -325,7 +327,8 @@
 
 
 @mixin destsubtitle {
-    color: #14183E;
+    font-size: 2vh;
+    color: #5E6282;
     font-family: 'Volkhov', sans-serif;
     display: flex;
     flex-direction: column;
@@ -362,7 +365,7 @@
 @mixin dest3 {
 
     position: relative;
-    z-index: 2;
+    z-index: auto;
 
     background-image: url('img/Group 593.png');
     background-size: 60vh 75vh;
@@ -401,7 +404,8 @@
     display: flex;
     margin-left: 13vh;
     margin-top: 2.5vh;
-    
+    height: 20px;
+    width: 20px;
     
 }
 
@@ -415,11 +419,218 @@
 
 
 @mixin  decordest {
-    position: relative;
-    z-index: 1;
+    position: absolute;
+    z-index: auto;
 
     display: flex;
     margin-left: 45vh;
+    top: 25%;
     
     
+}
+
+
+@mixin content4 {
+    margin-left: 10vh;
+    margin-bottom: 20vw;
+    height: 50vh;
+    display: flex;
+    margin-top: 10vh;
+    flex-direction: column;
+    
+    
+
+
+}
+
+
+
+@mixin content5 {
+    height: 50vh;
+    display: flex;
+
+    flex-direction: row;
+    
+
+
+}
+
+
+
+@mixin titlenexttrip {
+    margin-bottom: 2vh;
+    font-size: 4.5vh;
+    color: #14183E;
+    font-family: 'Volkhov', sans-serif;
+}
+
+@mixin subtitlenexttrip {
+    font-size: 2vh;
+    margin-bottom: 2vh;
+    color: #5E6282;
+    font-family: 'Volkhov', sans-serif;
+}
+
+
+@mixin bookmsg1 {
+    
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin bookmsg2 {
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin bookmsg3 {
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@mixin imgbook1 {
+    position: absolute;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 47px;
+    height: 48px;
+    
+    
+
+
+    
+}
+
+
+@mixin imgbook2 {
+    position: absolute;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 47px;
+    height: 48px;
+    
+    
+
+
+    
+}
+
+
+@mixin imgbook3 {
+    position: absolute;
+    margin-top: 0h;
+    display: flex;
+    flex-direction: column;
+    width: 47px;
+    height: 48px;
+    
+    
+
+}
+
+
+@mixin titlebook  {
+    font-size: 2vh;
+    color: #5E6282;
+    font-family: 'Volkhov', sans-serif;
+    font-weight: bold;
+}
+
+@mixin p {
+    color: #5E6282;
+    margin-left: 9vh;
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+
+
+
+@mixin gridtrip {
+    margin-left: 14vh;
+
+    display: grid;   
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600x;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    gap: 10px;
+
+}
+
+@mixin cardgreece {
+
+    background-image: url('img/Image (1).png');
+    
+    margin-left: 5vh;
+
+    height: 99vh;
+    width: 41vw;
+}
+
+
+@mixin divcomments {
+    margin-top: 15vh;
+    margin-left: 20vh;
+    
+
+    display: grid;   
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600x;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    gap: 10px;
+
+
+}
+
+@mixin decorcardgreece {
+    position: relative;
+    
+
+    display: flex;
+    margin-left: 30vh;
+    top: 57%;
+}
+
+
+@mixin cadrecomment {
+    background-image: url('img/Group 64.png');
+    
+    
+    margin-right: 10vh;
+    height: 60vh;
+    width: vw;
+}
+
+
+@mixin points {
+    margin-top: 13vh;
+}
+
+
+@mixin decorcardcomment {
+    position: relative;
+    
+
+    display: flex;
+    margin-left: 87vh;
+    top: 23%;
+}
+
+@mixin profilepic1 {
+    position: relative;
+    
+
+    display: flex;
+    margin-left: 6vh;
+    top: 0;
 }

@@ -1,3 +1,5 @@
+
+
 .categorytitle {
     @include categorytitle;
 }
@@ -120,4 +122,96 @@
 
 .triptime {
     @include triptime;
+}
+
+.content4 {
+    @include content4;
+}
+
+
+.content5 {
+    @include content5;
+}
+
+
+
+.titlenexttrip {
+    @include titlenexttrip;
+}
+
+.subtitlenexttrip {
+    @include subtitlenexttrip;
+}
+
+.bookmsg1 {
+    @include bookmsg1;
+}
+
+
+.bookmsg2 {
+    @include bookmsg2;
+}
+
+.bookmsg3 {
+    @include bookmsg3;
+}
+
+
+
+
+p {
+
+    @include p;
+
+}
+
+
+.imgbook1 {
+    @include imgbook1;
+}
+
+.imgbook2 {
+    @include imgbook2;
+}
+
+.imgbook3 {
+    @include imgbook3;
+}
+
+
+.titlebook {
+    @include titlebook;
+}
+
+.divcomments {
+    @include divcomments;
+}
+
+.gridtrip {
+    @include gridtrip;
+}
+
+.cardgreece {
+    @include cardgreece;
+}
+
+.decorcardgreece {
+    @include decorcardgreece;
+}
+
+
+.cadrecomment {
+    @include cadrecomment;
+}
+
+.points {
+    @include points;
+}
+
+.decorcardcomment {
+    @include decorcardcomment;
+}
+
+.profilepic1 {
+    @include profilepic1;
 }
