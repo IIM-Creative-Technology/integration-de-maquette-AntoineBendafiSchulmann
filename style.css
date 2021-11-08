@@ -356,7 +356,7 @@ p {
   margin-left: 20vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 600x;
+  grid-template-rows: 450px;
   grid-column: 1/2;
   grid-row: 1/2;
   gap: 10px;
@@ -394,14 +394,16 @@ p {
 }
 
 .points {
+  cursor: pointer;
   margin-top: 13vh;
 }
 
 .decorcardcomment {
+  cursor: pointer;
   position: relative;
   display: flex;
-  margin-left: 87vh;
-  top: 23%;
+  margin-left: 89vh;
+  top: 11%;
 }
 
 .profilepic1 {
@@ -409,6 +411,38 @@ p {
   display: flex;
   margin-left: 6vh;
   top: 0;
+}
+
+.divicons {
+  margin-top: 5vh;
+  margin-left: 7vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px;
+  min-width: 130vh;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  gap: 10px;
+}
+
+.logo1:hover, .logo2:hover, .logo3:hover, .logo4:hover, .logo5:hover, .logo6:hover {
+  background-image: url("img/Rectangle 18.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.spons {
+  position: relative;
+  width: 5vw;
+  height: 15vh;
+  left: 33%;
+}
+
+.spons2 {
+  position: relative;
+  width: 8vw;
+  height: 8vh;
+  left: 33%;
 }
 
 .headersize {

@@ -584,7 +584,7 @@
 
     display: grid;   
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 600x;
+    grid-template-rows: 450px;
     grid-column: 1/2;
     grid-row: 1/2;
     gap: 10px;
@@ -613,17 +613,19 @@
 
 
 @mixin points {
+    cursor: pointer;
     margin-top: 13vh;
 }
 
 
 @mixin decorcardcomment {
+    cursor: pointer;
     position: relative;
     
 
     display: flex;
-    margin-left: 87vh;
-    top: 23%;
+    margin-left: 89vh;
+    top: 11%;
 }
 
 @mixin profilepic1 {
@@ -633,4 +635,57 @@
     display: flex;
     margin-left: 6vh;
     top: 0;
+}
+
+
+@mixin divicons {
+    margin-top: 5vh;
+    margin-left: 7vh;
+
+
+    display: grid;   
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    min-width: 130vh;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    gap: 10px;
+
+
+
+}
+
+
+@mixin logo1 {
+
+    &:hover{
+        background-image: url('img/Rectangle 18.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@mixin spons {
+
+    position: relative;
+
+    
+    width: 5vw;
+    height: 15vh;
+    left: 33%;
+    
+    
+}
+
+
+@mixin spons2 {
+
+    position: relative;
+
+    
+    width: 8vw;
+    height: 8vh;
+    left: 33%;
+    
+    
 }

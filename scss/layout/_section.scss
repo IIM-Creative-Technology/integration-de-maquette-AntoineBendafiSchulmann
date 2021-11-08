@@ -215,3 +215,24 @@ p {
 .profilepic1 {
     @include profilepic1;
 }
+
+
+.divicons {
+    @include divicons;
+
+    
+}
+
+
+.logo1, .logo2, .logo3, .logo4, .logo5, .logo6 {
+    @include logo1;
+    
+}
+
+.spons {
+    @include spons;
+}
+
+.spons2 {
+    @include spons2;
+}
