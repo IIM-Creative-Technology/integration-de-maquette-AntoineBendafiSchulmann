@@ -373,7 +373,7 @@ p {
 }
 
 .cardgreece {
-  background-image: url("img/Image (1).png");
+  background-image: url("img/img+txt1.png");
   margin-left: 5vh;
   height: 99vh;
   width: 41vw;
@@ -383,11 +383,11 @@ p {
   position: relative;
   display: flex;
   margin-left: 30vh;
-  top: 57%;
+  top: 56%;
 }
 
 .cadrecomment {
-  background-image: url("img/Group 64.png");
+  background-image: url("img/div+txt3.png");
   margin-right: 10vh;
   height: 60vh;
   width: vw;
