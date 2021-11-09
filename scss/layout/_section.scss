@@ -236,3 +236,116 @@ p {
 .spons2 {
     @include spons2;
 }
+
+.formsec {
+    @include formsec;
+}
+
+.decorform {
+    @include decorform;
+}
+
+.titleform {
+    @include titleform;
+}
+
+.formaskmail {
+    @include formaskmail;
+}
+
+
+.inputmail {
+    @include inputmail ;
+}
+
+.btnmail {
+    @include btnmail ;
+}
+
+
+.footer {
+    @include footer;
+}
+
+.markfoot {
+    @include markfoot;
+}
+
+.compfoot {
+    @include compfoot;
+
+    a {
+        text-decoration: none;
+        color: #5E6282;
+        margin-bottom: 1.5vh;
+    }
+}
+
+.contactfoot {
+    @include contactfoot;
+
+    a {
+        text-decoration: none;
+        color: #5E6282;
+        margin-bottom: 1.5vh;
+    }
+}
+
+.morefoot {
+    @include morefoot;
+
+    a {
+        text-decoration: none;
+        color: #5E6282;
+        margin-bottom: 1.5vh;
+    }
+}
+
+.socialfoot {
+    @include socialfoot;
+}
+
+.footdivtitle {
+    @include footdivtitle;
+}
+
+.footdesc {
+    @include footdesc;
+
+    p {
+        color: #5E6282;
+    }
+}
+
+.titlesummary {
+    @include titlesummary;
+}
+
+.sociallinkfoot {
+    @include sociallinkfoot;
+}
+
+.appdiscfoot {
+    @include appdiscfoot;
+}
+
+.appdisc {
+    @include appdisc;
+}
+
+.divdownload {
+    @include divdownload;
+}
+
+.gplay {
+    @include gplay;
+}
+
+.appstr {
+    @include appstr;
+}
+
+.credit {
+    @include credit;
+}
+

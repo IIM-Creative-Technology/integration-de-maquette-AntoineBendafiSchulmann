@@ -662,6 +662,7 @@
         background-image: url('img/Rectangle 18.png');
         background-size: 100%;
         background-repeat: no-repeat;
+        
     }
 }
 
@@ -673,6 +674,12 @@
     width: 5vw;
     height: 15vh;
     left: 33%;
+
+    filter: grayscale(100%);
+
+    &:hover {
+        filter: grayscale(0%);
+    }
     
     
 }
@@ -682,10 +689,233 @@
 
     position: relative;
 
-    
-    width: 8vw;
-    height: 8vh;
+    margin-top: 5vh;
+    width: 5vw;
+    height: 4vh;
     left: 33%;
+    filter: grayscale(100%);
+
+    &:hover {
+        filter: grayscale(0%);
+    }
     
     
 }
+
+
+@mixin formsec {
+    
+    margin-top: 5vw;
+    margin-left: 4vh;
+
+    background-image: url('img/Group 595.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 70vh;
+    width: 90vw;
+
+
+
+
+}
+
+@mixin decorform {
+    cursor: pointer;
+    position: relative;
+    
+
+    display: flex;
+    margin-left: 85vw;
+    top: 33%;
+}
+
+@mixin titleform {
+    position: relative;
+    text-align: center;
+    
+    font-family:  'Poppins', sans-serif;
+    font-weight: 630;
+    font-size: 4.5vh;
+    color: #5E6282;
+    display: flex;
+    margin-left: 19vw;
+    top: 23%;
+}
+
+@mixin formaskmail {
+
+    position: relative;
+    
+    font-weight: 630;
+    display: flex;
+    margin-left: 27vw;
+    top: 37%;
+
+    
+}
+
+
+@mixin inputmail {
+    height: 68px;
+    width: 421px;
+    border-radius: 6px;
+    border: none;
+    padding-left: 2vw;
+    
+}
+
+@mixin btnmail {
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    margin-left: 1vw;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 22.5px;
+    padding-bottom: 22.5px;
+
+
+    font-weight: 540;
+    color: white;
+
+    background-image: url('img/Rectangle 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin footer {
+
+    margin-left: 10vh;
+    margin-top: 10vw;
+
+    display: grid;   
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    min-width: 130vh;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    gap: 10px;
+
+
+    background-image: url('img/footer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+
+
+
+}
+
+
+@mixin markfoot {
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+@mixin compfoot {
+
+    margin-left: 5vw;
+
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+
+@mixin contactfoot {
+
+    margin-left: 3vw;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@mixin morefoot {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@mixin socialfoot {
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+@mixin footdivtitle {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5vh;
+    display: flex;
+    margin-left: 10vh;
+    
+    
+}
+
+@mixin footdesc {
+    margin-top: 3vh;
+    margin-left: 10vh;
+    font-size: 1.5vh;
+    
+}
+
+@mixin titlesummary {
+    font-weight: bold;
+    color: black;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    
+}
+
+@mixin sociallinkfoot {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin appdiscfoot {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin appdisc {
+
+    margin-left: 6%;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    
+}
+
+@mixin divdownload {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin gplay {
+    margin-left: 2vh;
+    height: 4vh;
+    width: 5vw;
+}
+
+@mixin appstr {
+    margin-left: 2vh;
+    height: 4vh;
+    width: 5vw;
+}
+
+@mixin credit {
+    
+    position: relative;
+    margin-top: 0.5vh;
+    font-size: 1.5vh;
+    left: 210%;
+    margin-bottom: 3.5vw;
+}
+
