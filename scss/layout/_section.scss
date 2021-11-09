@@ -183,6 +183,10 @@ p {
     @include titlebook;
 }
 
+.subtitlebook {
+    @include subtitlebook;
+}
+
 .divcomments {
     @include divcomments;
 }

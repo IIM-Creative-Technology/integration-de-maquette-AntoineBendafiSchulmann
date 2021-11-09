@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .logo {
   display: flex;
   margin-top: 4vh;
@@ -349,6 +348,10 @@ p {
   color: #5E6282;
   font-family: "Volkhov", sans-serif;
   font-weight: bold;
+}
+
+.subtitlebook {
+  font-size: 0.68vw;
 }
 
 .divcomments {
