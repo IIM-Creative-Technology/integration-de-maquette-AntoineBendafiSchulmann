@@ -219,7 +219,7 @@
 
 .decordest {
   position: absolute;
-  z-index: auto;
+  z-index: -1;
   display: flex;
   margin-left: 45vh;
   top: 25%;
@@ -649,6 +649,11 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("img/Group 594.png");
+}
+@media screen and (min-width: 768px) {
+  .headerback {
+    width: 100%;
+  }
 }
 
 .subtitle {
