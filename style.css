@@ -1,9 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
 .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 4vh;
   height: 4vh;
@@ -11,23 +15,29 @@
 }
 
 .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .navbar_menu {
   margin-left: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   text-decoration: none;
 }
+
 .navbar_menu li {
   list-style: none;
 }
+
 .navbar_menu a {
   text-decoration: none;
 }
 
 .border {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   border: 1px solid black;
   border-radius: 5px;
   padding-left: 10px;
@@ -37,6 +47,7 @@
   margin-left: 10vh;
   margin-top: 4.5vh;
 }
+
 .border a {
   color: black;
 }
@@ -44,10 +55,11 @@
 .links {
   margin-top: 5.5vh;
 }
+
 .links a {
   color: black;
   margin-left: 9vh;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .arrow {
@@ -59,53 +71,90 @@
 
 .categorytitle {
   margin-top: 1vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding-left: 80vh;
 }
 
 .catsubtitle {
   font-size: 2vh;
   color: #5E6282;
-  font-family: "Volkhov", sans-serif;
+  font-family: 'Volkhov', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-left: 16vh;
 }
 
 .cattitle {
   font-size: 4.5vh;
   color: #14183E;
-  font-family: "Volkhov", sans-serif;
+  font-family: 'Volkhov', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-top: 1vh;
 }
 
 .decorcat {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   width: 15vh;
 }
 
 .catdecor {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-left: 48vh;
 }
 
 .catdiv {
   margin-top: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .offercards {
   margin-top: 7vh;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 429px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 429px;
+      grid-template-rows: 429px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
   grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
   grid-row: 1/2;
   gap: 5px;
 }
@@ -132,13 +181,13 @@
 
 .cardtitle {
   color: #181E4B;
-  font-family: "Volkhov", sans-serif;
+  font-family: 'Volkhov', sans-serif;
   text-align: center;
 }
 
 .cardtxt {
   color: #181E4B;
-  font-family: "Volkhov", sans-serif;
+  font-family: 'Volkhov', sans-serif;
   text-align: center;
   margin-top: 2.8vh;
   margin-left: 15vh;
@@ -149,44 +198,75 @@
 
 .destinationdiv {
   margin-top: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .div2title {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .destsubtitle {
   font-size: 2vh;
   color: #5E6282;
-  font-family: "Volkhov", sans-serif;
+  font-family: 'Volkhov', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-left: 99vh;
 }
 
 .destdivtitle {
   font-size: 4.5vh;
   color: #14183E;
-  font-family: "Volkhov", sans-serif;
+  font-family: 'Volkhov', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-top: 1vh;
   margin-left: 85vh;
 }
 
 .destinationcards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   min-width: 170vh;
   margin-left: 14.5vh;
   margin-top: 10vh;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 520px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 520px;
+      grid-template-rows: 520px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
   grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
   grid-row: 1/2;
   gap: 10px;
 }
@@ -220,34 +300,52 @@
 .decordest {
   position: absolute;
   z-index: -1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 45vh;
   top: 25%;
 }
 
 .p1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .p2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .towname {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 13vh;
   margin-top: 41vh;
 }
 
 .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 16vh;
   margin-top: 41vh;
 }
 
 .icondest {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 13vh;
   margin-top: 2.5vh;
@@ -256,6 +354,8 @@
 }
 
 .triptime {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 2vh;
   margin-top: 2.5vh;
@@ -265,62 +365,97 @@
   margin-left: 10vh;
   margin-bottom: 20vw;
   height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 10vh;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .content5 {
   height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .titlenexttrip {
   margin-bottom: 2vh;
   font-size: 4.5vh;
   color: #14183E;
-  font-family: "Volkhov", sans-serif;
+  font-family: 'Volkhov', sans-serif;
 }
 
 .subtitlenexttrip {
   font-size: 2vh;
   margin-bottom: 2vh;
   color: #5E6282;
-  font-family: "Volkhov", sans-serif;
+  font-family: 'Volkhov', sans-serif;
 }
 
 .bookmsg1 {
   margin-top: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .bookmsg2 {
   margin-top: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .bookmsg3 {
   margin-top: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 p {
   color: #5E6282;
   margin-left: 9vh;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .imgbook1 {
   position: absolute;
   margin-top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 47px;
   height: 48px;
 }
@@ -328,8 +463,13 @@ p {
 .imgbook2 {
   position: absolute;
   margin-top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 47px;
   height: 48px;
 }
@@ -337,8 +477,13 @@ p {
 .imgbook3 {
   position: absolute;
   margin-top: 0h;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 47px;
   height: 48px;
 }
@@ -346,7 +491,7 @@ p {
 .titlebook {
   font-size: 2vh;
   color: #5E6282;
-  font-family: "Volkhov", sans-serif;
+  font-family: 'Volkhov', sans-serif;
   font-weight: bold;
 }
 
@@ -357,20 +502,34 @@ p {
 .divcomments {
   margin-top: 15vh;
   margin-left: 20vh;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 450px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 450px;
+      grid-template-rows: 450px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
   grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
   grid-row: 1/2;
   gap: 10px;
 }
 
 .gridtrip {
   margin-left: 14vh;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 600x;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 600x;
+      grid-template-rows: 600x;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
   grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
   grid-row: 1/2;
   gap: 10px;
 }
@@ -384,6 +543,8 @@ p {
 
 .decorcardgreece {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 30vh;
   top: 56%;
@@ -404,6 +565,8 @@ p {
 .decorcardcomment {
   cursor: pointer;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 89vh;
   top: 11%;
@@ -411,6 +574,8 @@ p {
 
 .profilepic1 {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 6vh;
   top: 0;
@@ -419,11 +584,18 @@ p {
 .divicons {
   margin-top: 5vh;
   margin-left: 7vh;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 200px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 200px;
+      grid-template-rows: 200px;
   min-width: 130vh;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
   grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
   grid-row: 1/2;
   gap: 10px;
 }
@@ -439,10 +611,13 @@ p {
   width: 5vw;
   height: 15vh;
   left: 33%;
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
+
 .spons:hover {
-  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
 }
 
 .spons2 {
@@ -451,10 +626,13 @@ p {
   width: 5vw;
   height: 4vh;
   left: 33%;
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
+
 .spons2:hover {
-  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
 }
 
 .formsec {
@@ -470,6 +648,8 @@ p {
 .decorform {
   cursor: pointer;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 85vw;
   top: 33%;
@@ -478,10 +658,12 @@ p {
 .titleform {
   position: relative;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 630;
   font-size: 4.5vh;
   color: #5E6282;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 19vw;
   top: 23%;
@@ -490,6 +672,8 @@ p {
 .formaskmail {
   position: relative;
   font-weight: 630;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 27vw;
   top: 37%;
@@ -522,11 +706,18 @@ p {
 .footer {
   margin-left: 10vh;
   margin-top: 10vw;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 300px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 300px;
+      grid-template-rows: 300px;
   min-width: 130vh;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
   grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
   grid-row: 1/2;
   gap: 10px;
   background-image: url("img/footer.png");
@@ -535,15 +726,26 @@ p {
 }
 
 .markfoot {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .compfoot {
   margin-left: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 .compfoot a {
   text-decoration: none;
   color: #5E6282;
@@ -552,9 +754,15 @@ p {
 
 .contactfoot {
   margin-left: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 .contactfoot a {
   text-decoration: none;
   color: #5E6282;
@@ -562,9 +770,15 @@ p {
 }
 
 .morefoot {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 .morefoot a {
   text-decoration: none;
   color: #5E6282;
@@ -572,13 +786,20 @@ p {
 }
 
 .socialfoot {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .footdivtitle {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 4.5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 10vh;
 }
@@ -588,6 +809,7 @@ p {
   margin-left: 10vh;
   font-size: 1.5vh;
 }
+
 .footdesc p {
   color: #5E6282;
 }
@@ -600,13 +822,23 @@ p {
 }
 
 .sociallinkfoot {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .appdiscfoot {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .appdisc {
@@ -616,8 +848,13 @@ p {
 }
 
 .divdownload {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .gplay {
@@ -650,6 +887,7 @@ p {
   background-repeat: no-repeat;
   background-image: url("img/Group 594.png");
 }
+
 @media screen and (min-width: 768px) {
   .headerback {
     width: 100%;
@@ -657,7 +895,7 @@ p {
 }
 
 .subtitle {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #DF6951;
   margin-left: 15vh;
   margin-top: 17vh;
@@ -667,7 +905,7 @@ p {
 
 .title {
   color: #181E4B;
-  font-family: "Volkhov", serif;
+  font-family: 'Volkhov', serif;
   font-weight: bold;
   margin-left: 15vh;
   margin-top: 5vh;
@@ -676,22 +914,30 @@ p {
 
 .text {
   color: #181E4B;
-  font-family: "Volkhov", sans-serif;
+  font-family: 'Volkhov', sans-serif;
   margin-left: 15vh;
   margin-top: 5vh;
   font-size: 17px;
 }
 
 .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .finding {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #F1A501;
-  box-shadow: 5px #F1A501;
+  -webkit-box-shadow: 5px #F1A501;
+          box-shadow: 5px #F1A501;
   padding: 3vh;
   margin-top: 3vh;
   padding-left: 3vh;
@@ -699,12 +945,15 @@ p {
   border-radius: 17px;
   margin-bottom: 5vh;
 }
+
 .finding a {
   text-decoration: none;
   color: white;
 }
 
 .play_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 7vw;
   height: 15vh;
@@ -713,33 +962,47 @@ p {
 
 .traveller {
   margin-top: 3vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 85vh;
 }
 
 .containall {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 46vw;
 }
 
 .contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .contain2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .containimgtext {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .playmsg {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 6vh;
   margin-left: 0%;
 }
-
 /*# sourceMappingURL=style.css.map */
